@@ -49,3 +49,8 @@ Registered 1.0 (3 episodes): 3117e399cdb4298eaa3941625f4b2923 heretic.wad (11,09
 Registered 1.2 (3 episodes): 1e4cb4ef075ad344dd63971637307e04 heretic.wad (11,095,516 bytes)
 
 Retail 1.3 (Shadow of the Serpent Riders, extended, 5 episodes): 66d686b1ed6d35ff103f15dbd30e0341 heretic.wad (14,189,976 bytes)
+
+# Soundtracks:
+
+When configured `--with-audio=sdlmixer` it adds the ability of midi music playback from a WAD file or custom music tracks in an order OGG, MP3, MID (with midi it will look for timidity.cfg file), 
+place these music tracks in `$HOME/.hheretic/music` directory.
